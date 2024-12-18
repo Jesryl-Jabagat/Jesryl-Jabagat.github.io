@@ -422,12 +422,14 @@ nav a{
     font-size: 4rem; 
     color: var(--primary-color);
     margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
 }
 
 #banner p {
     font-size: 1.5rem;
     color: var(--primary-color);
     margin-top: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
 }
 
 #banner video {
@@ -600,17 +602,20 @@ nav a{
     font-size: 3.5rem;
     font-weight: bold;
     color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .plus {
     font-size: 24px;
     color: #e74c3c;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .description {
     font-size: 16px;
     color: white;
     margin-top: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 @media (max-width: 768px) {
