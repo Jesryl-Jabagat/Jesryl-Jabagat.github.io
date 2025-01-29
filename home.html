@@ -61,30 +61,9 @@
 
 
 
-    <div class="chatbox-icon" onclick="openChat()">
-        <i class="fas fa-comment-dots"></i>
-    </div>
-
-    <div id="chatbox" class="chatbox">
-        <div class="chatbox-header">
-            <img src="https://www.w3schools.com/w3images/avatar2.png" alt="Profile Pic" class="chatbox-profile-img">
-            <h3>Naturelens Support</h3>
-            <span class="close-btn" onclick="closeChat()">&times;</span>
-        </div>
-        <div class="chatbox-content">
-            <div class="messages" id="messages">
-               
-            </div>
-            <div class="chatbox-footer">
-                <input type="text" id="userInput" placeholder="Type your message..." onkeydown="if(event.key === 'Enter') sendMessage()">
-                <button type="button" onclick="sendMessage()">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="white">
-                        <path d="M120-160v-640l760 320-760 320Zm80-120 474-200-474-200v140l240 60-240 60v140Zm0 0v-400 400Z"/>
-                    </svg>
-                </button>
-            </div>
-        </div>
-    </div>
+    <script>
+(function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...arguments)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(arguments)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...args)=>target(prop,...args)}})}const onLoad=function(){const script=document.createElement("script");script.src="https://www.chatbase.co/embed.min.js";script.id="jYLir4470AvlNVh51i28p";script.domain="www.chatbase.co";document.body.appendChild(script)};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
+</script>
 
     <section id="banner" data-section="home">
         <div class="banner-content">
