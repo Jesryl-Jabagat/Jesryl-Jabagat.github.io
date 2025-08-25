@@ -42,4 +42,4 @@ If you would like to contribute to this project, please fork the repository and 
 
 ## Contact
 
-For inquiries or further information, please contact Jesryl Jabagat at [your-email@example.com].
+For inquiries or further information, please contact Jesryl Jabagat at jabagat09125@gmail.com
